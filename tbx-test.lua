@@ -1,12 +1,4 @@
-require('tbx.init')
-require('tbx.object')
-require('tbx.table')
-require('tbx.string')
-require('tbx.date')
-require('tbx.net')
-require('tbx.debug')
-require('tbx.json')
-require('tbx.csv')
+require('tbx.all')
 
 for k,v in pairs(tbx) do print(k, v) end
 
